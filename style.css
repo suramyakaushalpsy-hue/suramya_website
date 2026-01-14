@@ -7,6 +7,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "spacemonobold";
+  src: url("fonts/spacemonobold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Reset & Base Styles */
 * {
   margin: 0;
@@ -270,6 +278,7 @@ h4 {
 }
 
 .title-line {
+font-family:"spacemonobold";
   display: block;
 }
 
